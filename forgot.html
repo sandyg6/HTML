@@ -5,18 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORGOT PASSWORD</title>
-    <h2><font color="Lightpink">Change Password</font></h2>
+    <link rel="stylesheet" href="forgot.css">
 </head>
 <body>
-    <forms>
-        <p>Enter a valid mail id:</p>
-        <label type="username">GMail:</label>
-        <input type="text" placeholder="mail id"><br><br>
-        <label for="username" >New Password:</label>
-        <input type="password" placeholder="password"><br><br>
-        <label for="password">Confirm Password:</label>
-        <input type="password" placeholder="password"><br><br>
-         <a href="login.html"><input type="submit" value="Confirm" onclick="myFunction()"><br></a>
+    <h2>Change Password</h2>
+    <div class="forgot">
+    <form id="signup">
+        <label><b>Gmail:
+        </b>
+        </label><br>
+        <input id="Uname" type="text" placeholder="Enter a valid mail id:" required>
+        <br><br>
+        <label><b>New Password:
+        </b>
+        </label><br>
+        <input class="Pass" type="password" placeholder="New Password" required>
+        <br><br>
+        <label><b>Confirm Password:
+        </b>
+        </label><br>
+        <input class="Pass" type="password" placeholder="Confirm Password" required>
+        <br><br>
+        <a href="login.html"> <input type="submit" id="sign" value="Confirm" onclick="myFunction()"></a><br>
 
 <script>
 function myFunction() {
@@ -24,7 +34,7 @@ function myFunction() {
 }
 </script>
 
-
-    </forms>
+    </form>
+    </div>
   </body>
 </html>

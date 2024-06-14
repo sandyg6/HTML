@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
-    <h1><font color="Skyblue">LOGIN</font></h1>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <form>
-        <label for="username" >Username:</label>
-        <input type="text" placeholder="username"><br><br>
-        <label for="password">Password:</label>
-        <input type="password" placeholder="password"><br><br>
-        <input type="submit" value="Sign in" onclick="myFunction()"><br>
+    <h2>Login Page</h2><br>
+    <div class="login">
+    <form id="login" onsubmit="myFunction()">
+        <label><b>User Name
+        </b>
+        </label>
+        <input type="text" name="Uname" id="Uname" placeholder="Username" required>
+        <br><br>
+        <label><b>Password
+        </b>
+        </label>
+        <input type="password" name="Pass" id="Pass" placeholder="Password" required>
+        <br><br>
+        <input type="submit" id="log" value="Log In Here" >
+
+        <br><br>
+        <input type="checkbox" id="check">
+        <span>Remember me</span>
+        <br><br>
+        <a href="forgot.html" style="color: rgb(67, 120, 170);">Forgot Password</a>
+        <a href="signup.html" id="a1" style="color: rgb(67, 120, 170);">Sign Up</a>
+    </form>
+</div>
+<h2 id="sucess"></h2>
 
 <script>
-function myFunction() {
-  alert("Login Successful !!!");
-}
-</script>
-
-        <p>Don't have an account?</p>
-        <a href="signup.html">Sign up</a>
-        <p>Forgot your password?</p>
-        <a href="forgot.html">Forgot password</a>
-
-    </form>
+    function myFunction() {
+      alert("Login Successful !!!");
+    }
+    
+    </script>
 </body>
 </html>
+
+
+     

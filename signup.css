@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:oldlace;
+    font-family: 'Timesnewromen';
+    align-items: center;
+}
+.signup{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: olive;
+        opacity: 0.7;
+        border-radius: 15px ;
+}
+h2{
+    text-align: center;
+    color: olive;
+    padding: 22px;
+}
+label{
+    color: rgb(15, 13, 13);
+    font-size: 17px;
+}
+.Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color:  rgb(82, 82, 4);
+}
+a{
+    text-decoration: none;
+}
+
+

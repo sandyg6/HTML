@@ -1,0 +1,58 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:oldlace;
+    font-family: 'Timesnewromen';
+    align-items: center;
+}
+.forgot{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        background: Lightpink;
+        border-radius: 15px ;
+}
+h2{
+    text-align: center;
+    color: rgb(211, 131, 143);
+    padding: 22px;
+}
+label{
+    color: rgb(94, 91, 91);
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#sign{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color:  rgb(197, 78, 117);
+
+}
+a{
+    text-decoration: none;
+}
+
+#sucess{
+    margin-top: 50%;
+}
+
